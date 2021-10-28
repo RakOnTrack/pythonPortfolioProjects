@@ -9,10 +9,10 @@ COMPANY_NAME = "Apple"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-STOCK_API_KEY = '9XXMX5MOO7D03ETP'
+STOCK_API_KEY = #your key here from alphavantage
 NEWS_API_KEY = '86de4fae6cee410387dc6cee33eb0335'
 TWILLIO_SID = "ACe807544271e94bb07aa55c23ae15228d"
-TWILLIO_AUTH_TOKEN = '15feaf720777ade5a47f59f4be18f575'
+TWILLIO_AUTH_TOKEN = #your twillio auth token here
 
     ## STEP 1: Use https://www.alphavantage.co/documentation/#daily
 # When stock prices increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
