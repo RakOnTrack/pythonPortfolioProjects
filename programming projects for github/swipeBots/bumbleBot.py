@@ -2,9 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 
-FB_EMAIL = 'eric_rak@hotmail.com'
+FB_EMAIL = #your fb email here
 
-FB_PASSWORD = 'Allie110!'
+FB_PASSWORD = #your fb password here
 
 # chrome_driver_path = '../chromedriver'
 
