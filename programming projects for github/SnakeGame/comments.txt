@@ -1,0 +1,21 @@
+# create snake body
+#
+# create screen
+#
+# create controls for snake
+#
+# create food
+#
+# make snake longer after it eats
+#
+# add logic to lose
+
+
+# create snake body
+# move the snake
+# control the snake
+#
+# detect colision with food
+# create a scoreboard
+# detect collision with wall
+# detect collision with tail
