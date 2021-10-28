@@ -14,6 +14,8 @@ NEWS_API_KEY = '86de4fae6cee410387dc6cee33eb0335'
 TWILLIO_SID = "ACe807544271e94bb07aa55c23ae15228d"
 TWILLIO_AUTH_TOKEN = #your twillio auth token here
 
+YOUR_TWILLIO_NUMBER = #your number from twillio 
+YOUR_NUMBER = # your number that will recieve text. make sure its on your twillio confirmed recievers list.
     ## STEP 1: Use https://www.alphavantage.co/documentation/#daily
 # When stock prices increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
 
@@ -83,8 +85,8 @@ client = Client(TWILLIO_SID, TWILLIO_AUTH_TOKEN)
 for article in formatted_articles:
     message = client.messages.create(
         body= article,
-        from_='+17078202577',
-        to='+16476483402'
+        from_=YOUR_TWILLIO_NUMBER,
+        to=YOUR_NUMBER
     )
 
 
