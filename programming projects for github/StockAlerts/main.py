@@ -10,8 +10,8 @@ STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
 STOCK_API_KEY = #your key here from alphavantage
-NEWS_API_KEY = '86de4fae6cee410387dc6cee33eb0335'
-TWILLIO_SID = "ACe807544271e94bb07aa55c23ae15228d"
+NEWS_API_KEY = YOUR_NEWS_API_KEY
+TWILLIO_SID = YOUR_TILLIO_SID
 TWILLIO_AUTH_TOKEN = #your twillio auth token here
 
 YOUR_TWILLIO_NUMBER = #your number from twillio 
